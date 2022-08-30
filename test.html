@@ -13,13 +13,15 @@
 </head>
 <body>
     <script>
-        document.write("<br><br>Writing inside body<br>");
+        document.write("<br><br>< Writing inside body ><br>");
+        document.write("<br>******************** Variable declaration, initialization, use");
 
-        // VARIABLE INITIALIZATION...
+    // VARIABLE INITIALIZATION...
         
         var name = "Tushar";
             name = 20;
         var name = 10.5;
+        document.write("<br>");
             document.write(name); // var can be change and declare & initialize any where last value will be printed
 
         
@@ -35,6 +37,28 @@
             //   data="italy";(x)   const cant be initialize or declare multiple time
             // const data = "poland"; ( x )
               document.write(data);
+              document.write("<br>********************Data Types");
+
+
+    //Data types  var sring = "name"; , var num=25; var boolean=true/false; , var Array = ["Html","css","js"]; , var object = {name:"Tushar",state:"odisha"} , var Null = null; , var undefined;
+
+    // in js type of arrya is also a object
+    //use "typeof" to get the type of a variable 
+        
+        var x="Tushar";
+            document.write("<br><br>");
+            document.write(x);
+            document.write("<br>");
+            document.write(typeof x);
+            document.write("<br><br>");
+
+        var y={name:"Tushar", state:"odisha"};
+            document.write(y);
+            document.write("<br>");
+            document.write(typeof y);
+            document.write("<br>********************");
+
+
 
     </script>
 </body>

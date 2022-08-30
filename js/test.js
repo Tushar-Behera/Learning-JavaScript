@@ -1,0 +1,1 @@
+document.write("Hey its running from js ...");
